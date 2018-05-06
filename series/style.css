@@ -1,0 +1,48 @@
+/**
+ * The following styles get applied both on the front of your site and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-twentyseventeen-series {
+	text-align:center;
+	position: relative;
+
+	border-top:1px dashed #cbcbcb;
+	border-bottom:1px dashed #cbcbcb;
+
+	padding: 15px 20px;
+	margin-bottom: 50px;
+}
+
+.wp-block-twentyseventeen-series:after {
+	position: absolute;;
+
+	display:inline-block;
+
+	content:'§';
+	transform:rotate(60deg);
+
+	color:#cbcbcb;
+	background:#fff;
+
+	padding: 0 5px;
+	font-size: 18px;
+	bottom: -15px;
+	left: 48%;
+}
+.wp-block-twentyseventeen-series a {
+	font-weight:700;
+	line-height:21px;
+
+	text-decoration:none;
+	text-decoration:underline;
+
+	color:#333;
+
+	box-shadow: none !important;
+	text-decoration: none !important;
+}
+.wp-block-twentyseventeen-series a strong {
+	color:#0277bd;
+}
